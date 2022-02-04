@@ -1,56 +1,56 @@
-#===================¸ß¼¶¹¦ÄÜÉèÖÃ¸Ä=======================================
->cfg_insert_det_module			0			#½ÓÈë¶Ïµç¼ì²âÄ£¿é(1:mks 220det;0:mks pwc)
+#===================ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¸ï¿½=======================================
+>cfg_insert_det_module			0			#ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½Ä£ï¿½ï¿½(1:mks 220det;0:mks pwc)
 
->cfg_have_ups_device			0			#»úÆ÷ÊÇ·ñÅä±¸UPSµçÔ´(1:ÊÇ;0:·ñ)
+>cfg_have_ups_device			0			#ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ä±¸UPSï¿½ï¿½Ô´(1:ï¿½ï¿½;0:ï¿½ï¿½)
 
->cfg_print_over_auto_close		1			#´òÍê¹Ø»úÅäÖÃ(1:¿ªÆô£»0:¹Ø±Õ)¡£Ðè´îÅä¡°´òÍê¹Ø»úÄ£¿é¡±Ê¹ÓÃ
+>cfg_print_over_auto_close		1			#ï¿½ï¿½ï¿½ï¿½Ø»ï¿½ï¿½ï¿½ï¿½ï¿½(1:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0:ï¿½Ø±ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä¡°ï¿½ï¿½ï¿½ï¿½Ø»ï¿½Ä£ï¿½é¡±Ê¹ï¿½ï¿½
 
->cfg_filament_det0_trigger_level	0			#E0¶ÏÁÏ¼ì²â½Ó¿ÚµÄ´¥·¢µçÆ½ÅäÖÃ(1:¸ßµçÆ½´¥·¢;0:µÍµçÆ½´¥·¢)
->cfg_filament_det1_trigger_level	0			#E1¶ÏÁÏ¼ì²â½Ó¿ÚµÄ´¥·¢µçÆ½ÅäÖÃ(1:¸ßµçÆ½´¥·¢;0:µÍµçÆ½´¥·¢)
+>cfg_filament_det0_trigger_level	0			#E0ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½Ó¿ÚµÄ´ï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½(1:ï¿½ßµï¿½Æ½ï¿½ï¿½ï¿½ï¿½;0:ï¿½Íµï¿½Æ½ï¿½ï¿½ï¿½ï¿½)
+>cfg_filament_det1_trigger_level	0			#E1ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½Ó¿ÚµÄ´ï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½(1:ï¿½ßµï¿½Æ½ï¿½ï¿½ï¿½ï¿½;0:ï¿½Íµï¿½Æ½ï¿½ï¿½ï¿½ï¿½)
 
->cfg_filament_load_length		100			#"»»ÁÏ"½øÁÏµÄ³¤¶È
->cfg_filament_load_speed		2300			#"»»ÁÏ"½øÁÏËÙ¶ÈÅäÖÃ(mm/min)
->cfg_filament_load_limit_temperature	190			#"»»ÁÏ"½øÁÏ×îµÍÏÞÖÆÎÂ¶ÈÅäÖÃ
+>cfg_filament_load_length		100			#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ÏµÄ³ï¿½ï¿½ï¿½
+>cfg_filament_load_speed		2300			#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ï¿½ï¿½ï¿½ï¿½(mm/min)
+>cfg_filament_load_limit_temperature	190			#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¶ï¿½ï¿½ï¿½ï¿½ï¿½
 
->cfg_filament_unload_length		100			#"»»ÁÏ"ÍËÁÏµÄ³¤¶È
->cfg_filament_unload_speed		2300			#"»»ÁÏ"ÍËÁÏËÙ¶ÈÅäÖÃ(mm/min)
->cfg_filament_unload_limit_temperature	190			#"»»ÁÏ"ÍËÁÏ×îµÍÏÞÖÆÎÂ¶ÈÅäÖÃ
+>cfg_filament_unload_length		100			#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ÏµÄ³ï¿½ï¿½ï¿½
+>cfg_filament_unload_speed		2300			#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ï¿½ï¿½ï¿½ï¿½(mm/min)
+>cfg_filament_unload_limit_temperature	190			#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¶ï¿½ï¿½ï¿½ï¿½ï¿½
 
-#=========================== µ÷Æ½°´Å¥ÅäÖÃ  =============================
+#=========================== ï¿½ï¿½Æ½ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½  =============================
 
->cfg_leveling_mode			0			#µ÷Æ½Ä£Ê½ÅäÖÃ¡¶1:×Ô¶¯µ÷Æ½£»0:ÊÖ¶¯µ÷Æ½¡·
+>cfg_leveling_mode			0			#ï¿½ï¿½Æ½Ä£Ê½ï¿½ï¿½ï¿½Ã¡ï¿½1:ï¿½Ô¶ï¿½ï¿½ï¿½Æ½ï¿½ï¿½0:ï¿½Ö¶ï¿½ï¿½ï¿½Æ½ï¿½ï¿½
 
-#=========================== ÊÖ¶¯µ÷Æ½ ==================================
+#=========================== ï¿½Ö¶ï¿½ï¿½ï¿½Æ½ ==================================
 
->cfg_point_number			4			#ÊÖ¶¯µ÷Æ½µÄ¸öÊý:(¿ÉÉè3,4,5¸öµã)
+>cfg_point_number			4			#ï¿½Ö¶ï¿½ï¿½ï¿½Æ½ï¿½Ä¸ï¿½ï¿½ï¿½:(ï¿½ï¿½ï¿½ï¿½3,4,5ï¿½ï¿½ï¿½ï¿½)
 
->cfg_point1:30,30						
+>cfg_point1:30,30
 >cfg_point2:235,30
->cfg_point3:235,190						#ÊÖ¶¯µ÷Æ½Ê±µÄ5¸öµãµÄÎ»ÖÃ×ø±ê
+>cfg_point3:235,190						#ï¿½Ö¶ï¿½ï¿½ï¿½Æ½Ê±ï¿½ï¿½5ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 >cfg_point4:30,190
 >cfg_point5:100,100
 
-#========================== ×Ô¶¯µ÷Æ½ ===================================
+#========================== ï¿½Ô¶ï¿½ï¿½ï¿½Æ½ ===================================
 
 >cfg_auto_leveling_cmd:G28;G29;
 
-#===================ÓïÑÔÉèÖÃ==========================================
->cfg_language_adjust_type		1	#ÓïÑÔÇÐ»»·½Ê½ÅäÖÃ(1:ÆÁÄ»°´Å¥ÇÐ»»ÓïÑÔ,0:ÅäÖÃÎÄ¼þÑ¡ÏîÇÐ»»ÓïÑÔ).
+#===================ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½==========================================
+>cfg_language_adjust_type		1	#ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½(1:ï¿½ï¿½Ä»ï¿½ï¿½Å¥ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½,0:ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Ñ¡ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½).
 
->cfg_language_type			2	#ÓïÑÔ(1:¼òÌåÖÐÎÄ;2:·±ÌåÖÐÎÄ;3:Ó¢ÎÄ;4:¶íÓï;5:Î÷°àÑÀÓï,6:·¨Óï,7:Òâ´óÀûÓï)£¬
-						#´ËÅäÖÃÖ»ÓÐÔÚcfg_multiple_languageÉèÖÃÎª0Ê±ÓÐÐ§.
-#==================×Ô¶¨Òå¹¦ÄÜ°´Å¥¶¨ÖÆ=================================
-#ÉèÖÃ½çÃæ×Ô¶¨Òå¹¦ÄÜ1
->setmenu_func1_display		1		#1:ÏÔÊ¾°´Å¥£¬0:²»ÏÔÊ¾°´Å¥
+>cfg_language_type			2	#ï¿½ï¿½ï¿½ï¿½(1:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;2:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;3:Ó¢ï¿½ï¿½;4:ï¿½ï¿½ï¿½ï¿½;5:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,6:ï¿½ï¿½ï¿½ï¿½,7:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½
+						#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½cfg_multiple_languageï¿½ï¿½ï¿½ï¿½Îª0Ê±ï¿½ï¿½Ð§.
+#==================ï¿½Ô¶ï¿½ï¿½å¹¦ï¿½Ü°ï¿½Å¥ï¿½ï¿½ï¿½ï¿½=================================
+#ï¿½ï¿½ï¿½Ã½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½å¹¦ï¿½ï¿½1
+>setmenu_func1_display		1		#1:ï¿½ï¿½Ê¾ï¿½ï¿½Å¥ï¿½ï¿½0:ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Å¥
 
-#Ã¿ÌõÖ¸Áî±ØÐëÓÃ·ÖºÅ";"¸ô¿ª
+#Ã¿ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã·Öºï¿½";"ï¿½ï¿½ï¿½ï¿½
 >setmenu_func1:M84;
 
->moreitem_pic_cnt		7		#"¸ü¶à"°´Å¥ÊýÁ¿
+>moreitem_pic_cnt		7		#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½
 
-#°´Å¥1~°´Å¥7¶¨ÖÆÖ¸Áî
-#Ã¿ÌõÖ¸Áî±ØÐëÓÃ·ÖºÅ";"¸ô¿ª
-#Ã¿¸ö°´Å¥ÉèÖÃÖ¸Áî×î´ó±ØÐëÐ¡ÓÚ200×Ö½Ú
+#ï¿½ï¿½Å¥1~ï¿½ï¿½Å¥7ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½
+#Ã¿ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã·Öºï¿½";"ï¿½ï¿½ï¿½ï¿½
+#Ã¿ï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½200ï¿½Ö½ï¿½
 >moreitem_button1_cmd:G28 X0;G28 Y0;G28 Z0;
 
 >moreitem_button2_cmd:G28 X0;G28 Y0;G28 Z0;
@@ -65,10 +65,10 @@
 
 >moreitem_button7_cmd:G28 X0;G28 Y0;G28 Z0;
 
-#´òÓ¡½çÃæ"¸ü¶à"°´Å¥ÊýÁ¿
+#ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½
 >morefunc_cnt			7
 
-#°´Å¥1~°´Å¥6¹¦ÄÜÅäÖÃ
+#ï¿½ï¿½Å¥1~ï¿½ï¿½Å¥6ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 >morefunc1_cmd:G28;
 >morefunc2_cmd:G28;
 >morefunc3_cmd:G28;
@@ -78,44 +78,44 @@
 >morefunc7_cmd:G28;
 
 #-------------------------------------------------------------
-########  ÏÔÊ¾Ð§¹û¶¨ÖÆ£¨°´¼üÓëLOGO¶¨ÖÆÇë¿´ËµÃ÷Êé£© ##########
+########  ï¿½ï¿½Ê¾Ð§ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½LOGOï¿½ï¿½ï¿½ï¿½ï¿½ë¿´Ëµï¿½ï¿½ï¿½é£© ##########
 
->cfg_background_color		0xFFFFFF	#ÆÁÄ»±³¾°É«
->cfg_title_color		0xFFFFFF	#±êÌâÎÄ×Ö
->cfg_state_bkcolor		0xFFFFFF	#×´Ì¬À¸±³¾°É«
->cfg_state_textcolor		0x000000	#×´Ì¬À¸×ÖÌåÑÕÉ«
->cfg_filename_bkcolor		0xffffff	#ÎÄ¼þÄ¿Â¼°´Å¥±³¾°É«
->cfg_filename_textcolor		0x000000	#ÎÄ¼þÄ¿Â¼°´Å¥×ÖÌåÑÕÉ«
->cfg_btn_bkcolor		0xFFFFFF	#Í¨ÓÃ°´Å¥±³¾°É«
->cfg_btn_textcolor		0xFFFFFF	#Í¨ÓÃ°´Å¥ÎÄ×ÖÑÕÉ«
->cfg_state_btn_bkcolor		0xffffff	#×´Ì¬°´Å¥±³¾°É«
->cfg_state_btn_textcolor	0x000000	#×´Ì¬°´Å¥×ÖÌåÑÕÉ«
->cfg_back_btn_bkcolor		0x000000	#"·µ»Ø"¼ü±³¾°É«
->cfg_back_btn_textcolor		0xFFFFFF	#"·µ»Ø"¼ü×ÖÌåÑÕÉ«
->cfg_sel_btn_bkcolor		0x000000	#Ñ¡¶¨°´Å¥±³¾°É«
->cfg_sel_btn_textcolor		0xFFFFFF	#Ñ¡¶¨°´Å¥×ÖÌåÑÕÉ«
->cfg_dialog_btn_bkcolor		0xff0000	#¶Ô»°¿ò°´Å¥±³¾°É«
->cfg_dialog_btn_textcolor	0xFFFFFF	#¶Ô»°¿ò°´Å¥×ÖÌåÑÕÉ«
+>cfg_background_color		0xFFFFFF	#ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½É«
+>cfg_title_color		0xFFFFFF	#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+>cfg_state_bkcolor		0xFFFFFF	#×´Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+>cfg_state_textcolor		0x000000	#×´Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+>cfg_filename_bkcolor		0xffffff	#ï¿½Ä¼ï¿½Ä¿Â¼ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½É«
+>cfg_filename_textcolor		0x000000	#ï¿½Ä¼ï¿½Ä¿Â¼ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+>cfg_btn_bkcolor		0xFFFFFF	#Í¨ï¿½Ã°ï¿½Å¥ï¿½ï¿½ï¿½ï¿½É«
+>cfg_btn_textcolor		0xFFFFFF	#Í¨ï¿½Ã°ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+>cfg_state_btn_bkcolor		0xffffff	#×´Ì¬ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½É«
+>cfg_state_btn_textcolor	0x000000	#×´Ì¬ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+>cfg_back_btn_bkcolor		0x000000	#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+>cfg_back_btn_textcolor		0xFFFFFF	#"ï¿½ï¿½ï¿½ï¿½"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+>cfg_sel_btn_bkcolor		0x000000	#Ñ¡ï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½É«
+>cfg_sel_btn_textcolor		0xFFFFFF	#Ñ¡ï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+>cfg_dialog_btn_bkcolor		0xff0000	#ï¿½Ô»ï¿½ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½É«
+>cfg_dialog_btn_textcolor	0xFFFFFF	#ï¿½Ô»ï¿½ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
 
->cfg_btn_text_offset		10		#°´Å¥×ÖÌåÆ«ÒÆµ×±ßÎ»ÖÃ(µ¥Î»:ÏñËØ)
+>cfg_btn_text_offset		10		#ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½Æ«ï¿½Æµ×±ï¿½Î»ï¿½ï¿½(ï¿½ï¿½Î»:ï¿½ï¿½ï¿½ï¿½)
 
->cfg_screen_display_mode	0		#ÆÁÄ»Ê×Ò³ÏÔÊ¾Ä£Ê½(0:¾­µäÄ£Ê½£¬1:¼òÔ¼Ä£Ê½)
+>cfg_screen_display_mode	0		#ï¿½ï¿½Ä»ï¿½ï¿½Ò³ï¿½ï¿½Ê¾Ä£Ê½(0:ï¿½ï¿½ï¿½ï¿½Ä£Ê½ï¿½ï¿½1:ï¿½ï¿½Ô¼Ä£Ê½)
 
->cfg_screen_overturn_180	0x00		#ÆÁÄ»·­×ª180¡ã(0x00:²»·­×ª,0xEE:·­×ª)
+>cfg_screen_overturn_180	0x00		#ï¿½ï¿½Ä»ï¿½ï¿½×ª180ï¿½ï¿½(0x00:ï¿½ï¿½ï¿½ï¿½×ª,0xEE:ï¿½ï¿½×ª)
 
-#============================= »ù±¾ÉèÖÃ =========================
+#============================= ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ =========================
 
->MACHINETPYE  0		#»úÐÍÉèÖÃ,0:Cartesian; 1:DELTA ; 2:COREXY
+>MACHINETPYE  0		#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,0:Cartesian; 1:DELTA ; 2:COREXY
 
->HAS_TEMP_BED 1	        #¿ªÆôÈÈ´²(1:¿ªÆô,0:½ûÖ¹)
+>HAS_TEMP_BED 1	        #ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½(1:ï¿½ï¿½ï¿½ï¿½,0:ï¿½ï¿½Ö¹)
 
->EXTRUDERS    1		#ÅäÖÃ¼·³öÍ·ÊýÁ¿
+>EXTRUDERS    1		#ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½
 
->Z2_STEPPER_DRIVERS	0	#Ê¹ÄÜË«Z¹¦ÄÜ,		1:¿ªÆô; 0:½ûÖ¹;(¿ªÆô´Ë¹¦ÄÜ,Ôò×Ô¶¯µ÷Æ½¹¦ÄÜÎÞ·¨Ê¹ÓÃ)
->Z2_ENDSTOPS		0	#Ê¹ÄÜZÖáË«ÏÞÎ»;   	0:½ûÓÃ;	1:ÆôÓÃ;
->Z2_USE_ENDSTOP		0	#ZÖáµÚ¶þ¸öÏÞÎ»½Ó¿Ú;  	0:²»Ê¹ÓÃ;  1:Z_MAX;	2:Z_MIN
+>Z2_STEPPER_DRIVERS	0	#Ê¹ï¿½ï¿½Ë«Zï¿½ï¿½ï¿½ï¿½,		1:ï¿½ï¿½ï¿½ï¿½; 0:ï¿½ï¿½Ö¹;(ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ï¿½Þ·ï¿½Ê¹ï¿½ï¿½)
+>Z2_ENDSTOPS		0	#Ê¹ï¿½ï¿½Zï¿½ï¿½Ë«ï¿½ï¿½Î»;   	0:ï¿½ï¿½ï¿½ï¿½;	1:ï¿½ï¿½ï¿½ï¿½;
+>Z2_USE_ENDSTOP		0	#Zï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ó¿ï¿½;  	0:ï¿½ï¿½Ê¹ï¿½ï¿½;  1:Z_MAX;	2:Z_MIN
 
-# XYZÖáµÄÐÐ³Ì (µ¥Î»:mm)
+# XYZï¿½ï¿½ï¿½ï¿½Ð³ï¿½ (ï¿½ï¿½Î»:mm)
 >X_MIN_POS 0
 >Y_MIN_POS 0
 >Z_MIN_POS 0
@@ -123,52 +123,52 @@
 >Y_MAX_POS 210
 >Z_MAX_POS 210
 
-# ÔÝÍ£ºó¼·³öÍ·Í£Ö¹Î»ÖÃ
->FILAMENT_CHANGE_X_POS 5	 # XÎ»ÖÃ(¾ø¶Ô×ø±êÖµ)
->FILAMENT_CHANGE_Y_POS 5	 # YÎ»ÖÃ(¾ø¶Ô×ø±êÖµ)
->FILAMENT_CHANGE_Z_ADD 5	 # ZÎ»ÖÃ(Ïà¶Ô×ø±êÖµ)
+# ï¿½ï¿½Í£ï¿½ó¼·³ï¿½Í·Í£Ö¹Î»ï¿½ï¿½
+>FILAMENT_CHANGE_X_POS 5	 # XÎ»ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ)
+>FILAMENT_CHANGE_Y_POS 5	 # YÎ»ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ)
+>FILAMENT_CHANGE_Z_ADD 5	 # ZÎ»ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ)
 
-#Ê¹ÓÃË«Í·Ê±£¬µÚ¶þ¸ö¼·³öÍ·ÓëµÚÒ»¸ö¼·³öµÄXYÆ«ÒÆÖµ. 
->HOTEND_OFFSET_X 	20.00 		#xÖáÆ«ÒÆ(µ¥Î»:mm) 
->HOTEND_OFFSET_Y 	5.00  		#yÖáÆ«ÒÆ(µ¥Î»:mm) 
-#============================== ²½½øµç»úÉèÖÃ ============================
-#µç»ú·½ÏòÅäÖÃ.
->INVERT_X_DIR 	                0	
+#Ê¹ï¿½ï¿½Ë«Í·Ê±ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½XYÆ«ï¿½ï¿½Öµ.
+>HOTEND_OFFSET_X 	20.00 		#xï¿½ï¿½Æ«ï¿½ï¿½(ï¿½ï¿½Î»:mm)
+>HOTEND_OFFSET_Y 	5.00  		#yï¿½ï¿½Æ«ï¿½ï¿½(ï¿½ï¿½Î»:mm)
+#============================== ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ============================
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+>INVERT_X_DIR 	                0
 >INVERT_Y_DIR 	                0
 >INVERT_Z_DIR                	0
 >INVERT_E0_DIR           	0
 >INVERT_E1_DIR           	0
 
-#ÒÆ¶¯²ÎÊýÉèÖÃ
->DEFAULT_X_STEPS_PER_UNIT	80	#XÖáÄ¬ÈÏÂö³å (steps/mm)	
->DEFAULT_Y_STEPS_PER_UNIT	80	#YÖáÄ¬ÈÏÂö³å (steps/mm)	
->DEFAULT_Z_STEPS_PER_UNIT	400	#ZÖáÄ¬ÈÏÂö³å (steps/mm)	
->DEFAULT_E0_STEPS_PER_UNIT	400	#EÖáÄ¬ÈÏÂö³å (steps/mm)	
->DEFAULT_E1_STEPS_PER_UNIT	90	#EÖáÄ¬ÈÏÂö³å (steps/mm)	
+#ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+>DEFAULT_X_STEPS_PER_UNIT	80.1	#Xï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (steps/mm)
+>DEFAULT_Y_STEPS_PER_UNIT	80.19	#Yï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (steps/mm)
+>DEFAULT_Z_STEPS_PER_UNIT	395	#Zï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (steps/mm)
+>DEFAULT_E0_STEPS_PER_UNIT	400	#Eï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (steps/mm)
+>DEFAULT_E1_STEPS_PER_UNIT	90	#Eï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (steps/mm)
 
->DEFAULT_X_MAX_FEEDRATE		300	#XÖáÄ¬ÈÏËÙ¶È (mm/s)		
->DEFAULT_Y_MAX_FEEDRATE		300	#YÖáÄ¬ÈÏËÙ¶È (mm/s)		
->DEFAULT_Z_MAX_FEEDRATE		5	#ZÖáÄ¬ÈÏËÙ¶È (mm/s)		
->DEFAULT_E0_MAX_FEEDRATE	10	#EÖáÄ¬ÈÏËÙ¶È (mm/s)		
->DEFAULT_E1_MAX_FEEDRATE	70	#EÖáÄ¬ÈÏËÙ¶È (mm/s)	
+>DEFAULT_X_MAX_FEEDRATE		300	#Xï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ù¶ï¿½ (mm/s)
+>DEFAULT_Y_MAX_FEEDRATE		300	#Yï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ù¶ï¿½ (mm/s)
+>DEFAULT_Z_MAX_FEEDRATE		5	#Zï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ù¶ï¿½ (mm/s)
+>DEFAULT_E0_MAX_FEEDRATE	10	#Eï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ù¶ï¿½ (mm/s)
+>DEFAULT_E1_MAX_FEEDRATE	70	#Eï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ù¶ï¿½ (mm/s)
 
->DEFAULT_X_MAX_ACCELERATION	1000	#XÖáÄ¬ÈÏ×î´ó¼ÓËÙ¶È (change/s) change = mm/s
->DEFAULT_Y_MAX_ACCELERATION	1000	#YÖáÄ¬ÈÏ×î´ó¼ÓËÙ¶È (change/s) change = mm/s
->DEFAULT_Z_MAX_ACCELERATION	200	#ZÖáÄ¬ÈÏ×î´ó¼ÓËÙ¶È (change/s) change = mm/s
->DEFAULT_E0_MAX_ACCELERATION	1000 	#EÖáÄ¬ÈÏ×î´ó¼ÓËÙ¶È (change/s) change = mm/s
->DEFAULT_E1_MAX_ACCELERATION	10000	#EÖáÄ¬ÈÏ×î´ó¼ÓËÙ¶È (change/s) change = mm/s
+>DEFAULT_X_MAX_ACCELERATION	1000	#Xï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ (change/s) change = mm/s
+>DEFAULT_Y_MAX_ACCELERATION	1000	#Yï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ (change/s) change = mm/s
+>DEFAULT_Z_MAX_ACCELERATION	200	#Zï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ (change/s) change = mm/s
+>DEFAULT_E0_MAX_ACCELERATION	80000	#Eï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ (change/s) change = mm/s
+>DEFAULT_E1_MAX_ACCELERATION	10000	#Eï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ (change/s) change = mm/s
 
->DEFAULT_ACCELERATION		100	#X,Y,Z,E ´òÓ¡Ê±µÄÄ¬ÈÏ¼ÓËÙ¶È		
->DEFAULT_RETRACT_ACCELERATION	1000 	#X,Y,Z,E »Ø³éÄ¬ÈÏ¼ÓËÙ¶È		
->DEFAULT_TRAVEL_ACCELERATION	3000	#X,Y,Z ·Ç´òÓ¡Ê±µÄÄ¬ÈÏ¼ÓËÙ¶È	
->DEFAULT_MINIMUMFEEDRATE	0.0	#Ä¬ÈÏ×îÐ¡ËÙ¶È						
->DEFAULT_MINSEGMENTTIME		20000	#»º´æ¿ÕÊ±£¬Ò»¸öÒÆ¶¯ËùÐèµÄ×îÐ¡Ê±¼ä(µ¥Î»ms). 
->DEFAULT_MINTRAVELFEEDRATE	0.0	#		
+>DEFAULT_ACCELERATION		100	#X,Y,Z,E ï¿½ï¿½Ó¡Ê±ï¿½ï¿½Ä¬ï¿½Ï¼ï¿½ï¿½Ù¶ï¿½
+>DEFAULT_RETRACT_ACCELERATION	30000 	#X,Y,Z,E ï¿½Ø³ï¿½Ä¬ï¿½Ï¼ï¿½ï¿½Ù¶ï¿½
+>DEFAULT_TRAVEL_ACCELERATION	3000	#X,Y,Z ï¿½Ç´ï¿½Ó¡Ê±ï¿½ï¿½Ä¬ï¿½Ï¼ï¿½ï¿½Ù¶ï¿½
+>DEFAULT_MINIMUMFEEDRATE	0.0	#Ä¬ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½Ù¶ï¿½
+>DEFAULT_MINSEGMENTTIME		20000	#ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡Ê±ï¿½ï¿½(ï¿½ï¿½Î»ms).
+>DEFAULT_MINTRAVELFEEDRATE	0.0	#
 
->DEFAULT_XJERK 			15.0	#Ä¬ÈÏXÖá Jerk (mm/s)	
->DEFAULT_YJERK 			15.0	#Ä¬ÈÏYÖá Jerk (mm/s)	
->DEFAULT_ZJERK 			0.4	#Ä¬ÈÏZÖá Jerk (mm/s)	
->DEFAULT_EJERK 			2.0	#Ä¬ÈÏEÖá Jerk (mm/s)	
+>DEFAULT_XJERK 			15.0	#Ä¬ï¿½ï¿½Xï¿½ï¿½ Jerk (mm/s)
+>DEFAULT_YJERK 			15.0	#Ä¬ï¿½ï¿½Yï¿½ï¿½ Jerk (mm/s)
+>DEFAULT_ZJERK 			0.4	#Ä¬ï¿½ï¿½Zï¿½ï¿½ Jerk (mm/s)
+>DEFAULT_EJERK 			2.0	#Ä¬ï¿½ï¿½Eï¿½ï¿½ Jerk (mm/s)
 
 #For Inverting Stepper Enable Pins  (0:Low,1:High)
 >X_ENABLE_ON		0
@@ -176,147 +176,147 @@
 >Z_ENABLE_ON		0
 >E_ENABLE_ON		0
 
-#============================= ÈÈÃôÉèÖÃ ============================
->TEMP_SENSOR_0		1		#1: 100kÈÈÃô£»-3 : MAX31855ÈÈµçÅ¼
+#============================= ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ============================
+>TEMP_SENSOR_0		1		#1: 100kï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-3 : MAX31855ï¿½Èµï¿½Å¼
 
->EXTRUDE_MINTEMP 	160		#´òÓ¡Ê±,¼·³ö»ú×îµÍÎÂ¶È(Æð±£»¤×÷ÓÃ)
->HEATER_0_MINTEMP	-5		#¼·³ö0×îÐ¡ÎÂ¶ÈÖµ
->HEATER_0_MAXTEMP 	350		#¼·³ö0×î´óÎÂ¶ÈÖµ
->HEATER_1_MINTEMP	-5		#¼·³ö1×îÐ¡ÎÂ¶ÈÖµ
->HEATER_1_MAXTEMP 	400		#¼·³ö1×î´óÎÂ¶ÈÖµ
->BED_MAXTEMP 		150		#ÈÈ´²×î´óÎÂ¶ÈÖµ
+>EXTRUDE_MINTEMP 	160		#ï¿½ï¿½Ó¡Ê±,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¶ï¿½(ï¿½ð±£»ï¿½ï¿½ï¿½ï¿½ï¿½)
+>HEATER_0_MINTEMP	-5		#ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½Ð¡ï¿½Â¶ï¿½Öµ
+>HEATER_0_MAXTEMP 	350		#ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½Â¶ï¿½Öµ
+>HEATER_1_MINTEMP	-5		#ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½Ð¡ï¿½Â¶ï¿½Öµ
+>HEATER_1_MAXTEMP 	400		#ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½Â¶ï¿½Öµ
+>BED_MAXTEMP 		150		#ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½Â¶ï¿½Öµ
 
-#======================== ÈÈÃô±£»¤ÅäÖÃ =======================
->THERMAL_PROTECTION_PERIOD 		150     #µ¥Î»:Ãë
->THERMAL_PROTECTION_HYSTERESIS 		6     	#µ¥Î»:¡æ
->WATCH_TEMP_PERIOD 			150	#µ¥Î»:Ãë
->WATCH_TEMP_INCREASE 			2	#µ¥Î»:¡æ
->THERMAL_PROTECTION_BED_PERIOD 		200    	#µ¥Î»:Ãë
->THERMAL_PROTECTION_BED_HYSTERESIS 	4 	#µ¥Î»:¡æ
->WATCH_BED_TEMP_PERIOD 		200     #µ¥Î»:Ãë
->WATCH_BED_TEMP_INCREASE 		2       #µ¥Î»:¡æ
+#======================== ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ =======================
+>THERMAL_PROTECTION_PERIOD 		150     #ï¿½ï¿½Î»:ï¿½ï¿½
+>THERMAL_PROTECTION_HYSTERESIS 		6     	#ï¿½ï¿½Î»:ï¿½ï¿½
+>WATCH_TEMP_PERIOD 			150	#ï¿½ï¿½Î»:ï¿½ï¿½
+>WATCH_TEMP_INCREASE 			2	#ï¿½ï¿½Î»:ï¿½ï¿½
+>THERMAL_PROTECTION_BED_PERIOD 		200    	#ï¿½ï¿½Î»:ï¿½ï¿½
+>THERMAL_PROTECTION_BED_HYSTERESIS 	4 	#ï¿½ï¿½Î»:ï¿½ï¿½
+>WATCH_BED_TEMP_PERIOD 		200     #ï¿½ï¿½Î»:ï¿½ï¿½
+>WATCH_BED_TEMP_INCREASE 		2       #ï¿½ï¿½Î»:ï¿½ï¿½
 
-# ¼·³öÍ·ÎÂ¶Èµ÷¿Ø²ÎÊýÉèÖÃ.
->PIDTEMPE			1	# Ä£Ê½Ñ¡Ôñ£¬1:PID; 0:bang-bang
->DEFAULT_Kp			11.14	# PÖµÉèÖÃ
->DEFAULT_Ki			0.72	# IÖµÉèÖÃ
->DEFAULT_Kd			43.09	# DÖµÉèÖÃ
+# ï¿½ï¿½ï¿½ï¿½Í·ï¿½Â¶Èµï¿½ï¿½Ø²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+>PIDTEMPE			1	# Ä£Ê½Ñ¡ï¿½ï¿½1:PID; 0:bang-bang
+>DEFAULT_Kp			11.14	# PÖµï¿½ï¿½ï¿½ï¿½
+>DEFAULT_Ki			0.72	# IÖµï¿½ï¿½ï¿½ï¿½
+>DEFAULT_Kd			43.09	# DÖµï¿½ï¿½ï¿½ï¿½
 
-#ÈÈ´²ÎÂ¶Èµ÷¿Ø²ÎÊýÉèÖÃ..
->PIDTEMPBED			1	# Ä£Ê½Ñ¡Ôñ£¬1:PID; 0:bang-bang
->DEFAULT_bedKp			52.63	# PÖµÉèÖÃ
->DEFAULT_bedKi			9.75	# IÖµÉèÖÃ
->DEFAULT_bedKd			71.01	# DÖµÉèÖÃ
-
-
-#============================== ÏÞÎ»¿ª¹ØÉèÖÃ ===========================
-
->MIN_SOFTWARE_ENDSTOPS	 1              # 0:½ûÖ¹ÈíÏÞÎ»;  1:¿ªÆôÈíÏÞÎ».
->MAX_SOFTWARE_ENDSTOPS 	 1              # 0:½ûÖ¹ÈíÏÞÎ»;  1:¿ªÆôÈíÏÞÎ».
-
-# ÅäÖÃÏÞÎ»¿ª¹ØµÄ½ÓÈëÐÅºÅ.
->X_MIN_ENDSTOP_INVERTING 1		# X_MINÏÞÎ»¿ª¹Ø³£¿ª/³£±ÕÑ¡Ôñ
->Y_MIN_ENDSTOP_INVERTING 1		# Y_MINÏÞÎ»¿ª¹Ø³£¿ª/³£±ÕÑ¡Ôñ
->Z_MIN_ENDSTOP_INVERTING 1		# Z_MINÏÞÎ»¿ª¹Ø³£¿ª/³£±ÕÑ¡Ôñ
->X_MAX_ENDSTOP_INVERTING 1		# X_MAXÏÞÎ»¿ª¹Ø³£¿ª/³£±ÕÑ¡Ôñ
->Y_MAX_ENDSTOP_INVERTING 1		# Y_MAXÏÞÎ»¿ª¹Ø³£¿ª/³£±ÕÑ¡Ôñ
->Z_MAX_ENDSTOP_INVERTING 1		# Z_MAXÏÞÎ»¿ª¹Ø³£¿ª/³£±ÕÑ¡Ôñ
->FIL_RUNOUT_INVERTING 	0		# ¶ÏÁÏ¿ª¹Ø³£¿ª/³£±ÕÑ¡Ôñ
-
-# Ö¸Ã÷ÏÞÎ»¿ª¹Ø»òÌ½ÕëµÄÊ¹ÓÃ½Ó¿Ú.
->USE_XMIN_PLUG	1			# 1:Ê¹ÓÃ; 0:²»Ê¹ÓÃ
->USE_YMIN_PLUG	1			# 1:Ê¹ÓÃ; 0:²»Ê¹ÓÃ
->USE_ZMIN_PLUG	1			# 1:Ê¹ÓÃ; 0:²»Ê¹ÓÃ
->USE_XMAX_PLUG	0			# 1:Ê¹ÓÃ; 0:²»Ê¹ÓÃ
->USE_YMAX_PLUG	0			# 1:Ê¹ÓÃ; 0:²»Ê¹ÓÃ
->USE_ZMAX_PLUG	1			# 1:Ê¹ÓÃ; 0:²»Ê¹ÓÃ
+#ï¿½È´ï¿½ï¿½Â¶Èµï¿½ï¿½Ø²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..
+>PIDTEMPBED			1	# Ä£Ê½Ñ¡ï¿½ï¿½1:PID; 0:bang-bang
+>DEFAULT_bedKp			52.63	# PÖµï¿½ï¿½ï¿½ï¿½
+>DEFAULT_bedKi			9.75	# IÖµï¿½ï¿½ï¿½ï¿½
+>DEFAULT_bedKd			71.01	# DÖµï¿½ï¿½ï¿½ï¿½
 
 
-#==============================  »ØÁãÉèÖÃ ==============================
+#============================== ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ===========================
 
->X_HOME_DIR -1				# XÖá»ØÁã·½Ïò; 1=MAX·½Ïò, -1=MIN·½Ïò :[-1,1]
->Y_HOME_DIR -1				# YÖá»ØÁã·½Ïò; 1=MAX·½Ïò, -1=MIN·½Ïò :[-1,1]
->Z_HOME_DIR -1				# ZÖá»ØÁã·½Ïò; 1=MAX·½Ïò, -1=MIN·½Ïò :[-1,1]
->HOMING_FEEDRATE_XY 2400                # XYÖá»ØÁãËÙ¶È (mm/m)
->HOMING_FEEDRATE_Z  600                 # ZÖá»ØÁãËÙ¶È (mm/m)
->HOME_Y_BEFORE_X	0       	# »ØÁãÊ±xyÖáµÄË³Ðò,0: XÏÈ»ØÁã; 1:YÏÈ»ØÁã£»
+>MIN_SOFTWARE_ENDSTOPS	 1              # 0:ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½Î»;  1:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î».
+>MAX_SOFTWARE_ENDSTOPS 	 1              # 0:ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½Î»;  1:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î».
+
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ØµÄ½ï¿½ï¿½ï¿½ï¿½Åºï¿½.
+>X_MIN_ENDSTOP_INVERTING 1		# X_MINï¿½ï¿½Î»ï¿½ï¿½ï¿½Ø³ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+>Y_MIN_ENDSTOP_INVERTING 1		# Y_MINï¿½ï¿½Î»ï¿½ï¿½ï¿½Ø³ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+>Z_MIN_ENDSTOP_INVERTING 1		# Z_MINï¿½ï¿½Î»ï¿½ï¿½ï¿½Ø³ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+>X_MAX_ENDSTOP_INVERTING 1		# X_MAXï¿½ï¿½Î»ï¿½ï¿½ï¿½Ø³ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+>Y_MAX_ENDSTOP_INVERTING 1		# Y_MAXï¿½ï¿½Î»ï¿½ï¿½ï¿½Ø³ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+>Z_MAX_ENDSTOP_INVERTING 1		# Z_MAXï¿½ï¿½Î»ï¿½ï¿½ï¿½Ø³ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+>FIL_RUNOUT_INVERTING 	0		# ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½Ø³ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+
+# Ö¸ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½Ø»ï¿½Ì½ï¿½ï¿½ï¿½Ê¹ï¿½Ã½Ó¿ï¿½.
+>USE_XMIN_PLUG	1			# 1:Ê¹ï¿½ï¿½; 0:ï¿½ï¿½Ê¹ï¿½ï¿½
+>USE_YMIN_PLUG	1			# 1:Ê¹ï¿½ï¿½; 0:ï¿½ï¿½Ê¹ï¿½ï¿½
+>USE_ZMIN_PLUG	1			# 1:Ê¹ï¿½ï¿½; 0:ï¿½ï¿½Ê¹ï¿½ï¿½
+>USE_XMAX_PLUG	0			# 1:Ê¹ï¿½ï¿½; 0:ï¿½ï¿½Ê¹ï¿½ï¿½
+>USE_YMAX_PLUG	0			# 1:Ê¹ï¿½ï¿½; 0:ï¿½ï¿½Ê¹ï¿½ï¿½
+>USE_ZMAX_PLUG	1			# 1:Ê¹ï¿½ï¿½; 0:ï¿½ï¿½Ê¹ï¿½ï¿½
 
 
-#============================= ZÖáÌ½ÕëÉèÖÃ =============================
-#Ì½Õë½Ó¿ÚZ-Min»òZ-Max.
->Z_MIN_PROBE_PIN_MODE		0	# 0:²»Ê¹ÓÃ; 1:½ÓZ_MIN; 2:½ÓZMAX
+#==============================  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ==============================
 
->Z_PROBE_OFFSET_FROM_EXTRUDER	0	# Z Æ«ÒÆ: -below +above  [the nozzle]		
->X_PROBE_OFFSET_FROM_EXTRUDER	0	# X Æ«ÒÆ: -left  +right  [of the nozzle]
->Y_PROBE_OFFSET_FROM_EXTRUDER	0	# Y Æ«ÒÆ: -front +behind [the nozzle]
->XY_PROBE_SPEED 		4000	# Ì½ÕëXYÖáÒÆ¶¯ËÙ¶È (mm/m) 
+>X_HOME_DIR -1				# Xï¿½ï¿½ï¿½ï¿½ã·½ï¿½ï¿½; 1=MAXï¿½ï¿½ï¿½ï¿½, -1=MINï¿½ï¿½ï¿½ï¿½ :[-1,1]
+>Y_HOME_DIR -1				# Yï¿½ï¿½ï¿½ï¿½ã·½ï¿½ï¿½; 1=MAXï¿½ï¿½ï¿½ï¿½, -1=MINï¿½ï¿½ï¿½ï¿½ :[-1,1]
+>Z_HOME_DIR -1				# Zï¿½ï¿½ï¿½ï¿½ã·½ï¿½ï¿½; 1=MAXï¿½ï¿½ï¿½ï¿½, -1=MINï¿½ï¿½ï¿½ï¿½ :[-1,1]
+>HOMING_FEEDRATE_XY 2400                # XYï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ (mm/m)
+>HOMING_FEEDRATE_Z  600                 # Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ (mm/m)
+>HOME_Y_BEFORE_X	0       	# ï¿½ï¿½ï¿½ï¿½Ê±xyï¿½ï¿½ï¿½Ë³ï¿½ï¿½,0: Xï¿½È»ï¿½ï¿½ï¿½; 1:Yï¿½È»ï¿½ï¿½ã£»
+
+
+#============================= Zï¿½ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ =============================
+#Ì½ï¿½ï¿½Ó¿ï¿½Z-Minï¿½ï¿½Z-Max.
+>Z_MIN_PROBE_PIN_MODE		0	# 0:ï¿½ï¿½Ê¹ï¿½ï¿½; 1:ï¿½ï¿½Z_MIN; 2:ï¿½ï¿½ZMAX
+
+>Z_PROBE_OFFSET_FROM_EXTRUDER	0	# Z Æ«ï¿½ï¿½: -below +above  [the nozzle]
+>X_PROBE_OFFSET_FROM_EXTRUDER	0	# X Æ«ï¿½ï¿½: -left  +right  [of the nozzle]
+>Y_PROBE_OFFSET_FROM_EXTRUDER	0	# Y Æ«ï¿½ï¿½: -front +behind [the nozzle]
+>XY_PROBE_SPEED 		4000	# Ì½ï¿½ï¿½XYï¿½ï¿½ï¿½Æ¶ï¿½ï¿½Ù¶ï¿½ (mm/m)
 >Z_PROBE_SPEED_FAST 		600	# Speed for the first approach when double-probing (with PROBE_DOUBLE_TOUCH)
 >Z_PROBE_SPEED_SLOW 		300	# Speed for the "accurate" probe of each point
 
 
-#=============================== ÈÈ´²µ÷Æ½ÉèÖÃ ==============================
+#=============================== ï¿½È´ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ ==============================
 
->BED_LEVELING_METHOD 		0	# 0:²»Ê¹ÓÃµ÷Æ½; 3:¶àµã×Ô¶¯µ÷Æ½; 5:ÊÖ¶¯Íø¸ñµ÷Æ½	
+>BED_LEVELING_METHOD 		0	# 0:ï¿½ï¿½Ê¹ï¿½Ãµï¿½Æ½; 3:ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½Æ½; 5:ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ½
 
->GRID_MAX_POINTS_X 		3	# xÖá·½Ê½µ÷Æ½µãÊý. <= 15
->GRID_MAX_POINTS_Y 		3	# yÖá·½Ïòµ÷Æ½µãÊý. <= 15	
->Z_CLEARANCE_DEPLOY_PROBE	20	# ZÖáÌ§Æð/·ÅÏÂµÄ¾àÀë.> 0
->Z_CLEARANCE_BETWEEN_PROBES	20	# ZÖáÔÚÁ½¸öµ÷Æ½µãµÄµÄÒÆ¶¯¸ß¶È. > 0
+>GRID_MAX_POINTS_X 		3	# xï¿½á·½Ê½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½. <= 15
+>GRID_MAX_POINTS_Y 		3	# yï¿½á·½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½. <= 15
+>Z_CLEARANCE_DEPLOY_PROBE	20	# Zï¿½ï¿½Ì§ï¿½ï¿½/ï¿½ï¿½ï¿½ÂµÄ¾ï¿½ï¿½ï¿½.> 0
+>Z_CLEARANCE_BETWEEN_PROBES	20	# Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½Äµï¿½ï¿½Æ¶ï¿½ï¿½ß¶ï¿½. > 0
 
-# ÉèÖÃÌ½ÕëÄÜ¹»µ½´ïÈÈ´²µÄ±ß½ç¾àÀë.
->LEFT_PROBE_BED_POSITION 	30	
+# ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½Ä±ß½ï¿½ï¿½ï¿½ï¿½.
+>LEFT_PROBE_BED_POSITION 	30
 >RIGHT_PROBE_BED_POSITION 	180
->FRONT_PROBE_BED_POSITION 	30	
+>FRONT_PROBE_BED_POSITION 	30
 >BACK_PROBE_BED_POSITION 	180
 
->MESH_INSET			20	# MESH_BED_LEVELINGµ÷Æ½Ä£Ê½ÏÂ±ß½ç¾àÀë·¶Î§
+>MESH_INSET			20	# MESH_BED_LEVELINGï¿½ï¿½Æ½Ä£Ê½ï¿½Â±ß½ï¿½ï¿½ï¿½ë·¶Î§
 
 
-#============================== Delta»úÐÍÉèÖÃ =============================
+#============================== Deltaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ =============================
 >DELTA_SEGMENTS_PER_SECOND	40      #--default
->DELTA_DIAGONAL_ROD		346.75	#Center-to-center distance of the holes in the diagonal push rods.	
+>DELTA_DIAGONAL_ROD		346.75	#Center-to-center distance of the holes in the diagonal push rods.
 >DELTA_SMOOTH_ROD_OFFSET	211.5	#Horizontal offset from middle of printer to smooth rod center.
 >DELTA_EFFECTOR_OFFSET		28	#Horizontal offset of the universal joints on the end effector.
 >DELTA_CARRIAGE_OFFSET		14.5	#Horizontal offset of the universal joints on the carriages.
->DELTA_RADIUS			169	#Horizontal distance bridged by diagonal push rods when effector is centered.	
+>DELTA_RADIUS			169	#Horizontal distance bridged by diagonal push rods when effector is centered.
 >DELTA_HEIGHT			302	#height from z=0.00 to home position
 >DELTA_PRINTABLE_RADIUS		125	#Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
->DELTA_CALIBRATION_RADIUS	100	#set the radius for the calibration probe points - max 0.8 * DELTA_PRINTABLE_RADIUS 
+>DELTA_CALIBRATION_RADIUS	100	#set the radius for the calibration probe points - max 0.8 * DELTA_PRINTABLE_RADIUS
 
 
-#============================== Wifi ÉèÖÃ =============================
+#============================== Wifi ï¿½ï¿½ï¿½ï¿½ =============================
 >CFG_WIFI_MODE			0			#wifi Ä£Ê½(0:sta;1:ap)
->CFG_WIFI_AP_NAME		         		#wifi Ãû³Æ
->CFG_WIFI_KEY_CODE		         		#wifi ÃÜÂë
+>CFG_WIFI_AP_NAME		         		#wifi ï¿½ï¿½ï¿½ï¿½
+>CFG_WIFI_KEY_CODE		         		#wifi ï¿½ï¿½ï¿½ï¿½
 
->CFG_CLOUD_ENABLE		0			#ÔÆ·þÎñÊ¹ÄÜ(1:Ê¹ÄÜ£¬0:½ûÖ¹)
->CFG_WIFI_CLOUD_HOST		                 	#ÔÆ·þÎñÁ´½Ó
->CFG_CLOUD_PORT			        		#ÔÆ·þÎñ¶Ë¿Ú
+>CFG_CLOUD_ENABLE		0			#ï¿½Æ·ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½(1:Ê¹ï¿½Ü£ï¿½0:ï¿½ï¿½Ö¹)
+>CFG_WIFI_CLOUD_HOST		                 	#ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+>CFG_CLOUD_PORT			        		#ï¿½Æ·ï¿½ï¿½ï¿½Ë¿ï¿½
 
->WISI_LIST_SCAN                 1                       #ÊÇ·ñÊ¹ÓÃwifiÁÐ±íÉ¨Ãè£¨1£ºÊ¹ÓÃ£¬0£º½ûÖ¹£©
+>WISI_LIST_SCAN                 1                       #ï¿½Ç·ï¿½Ê¹ï¿½ï¿½wifiï¿½Ð±ï¿½É¨ï¿½è£¨1ï¿½ï¿½Ê¹ï¿½Ã£ï¿½0ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½
 
-#¹ØÓÚÐÅÏ¢
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 >about_type:V5.8.7
 >about_version:V5.8.7
 >about_company:support@3dflyingbear.com
 >about_email:adam@3dflyingbear.com
- 
-#»Ö¸´Ä¬ÈÏ´¥ÃþÅäÖÃ   £¨0£ºÐ£×¼Öµ£¬1£ºÄ¬ÈÏ£©
+
+#ï¿½Ö¸ï¿½Ä¬ï¿½Ï´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   ï¿½ï¿½0ï¿½ï¿½Ð£×¼Öµï¿½ï¿½1ï¿½ï¿½Ä¬ï¿½Ï£ï¿½
 >TOUCH_ADJUST_DEFAULT    0
 
-#°´¼üÉùÒôÅäÖÃ   £¨0£º½ûÖ¹£¬1£º¿ªÆô£©
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 >KEY_VOICE    1
 
-#»ØÁãXÆ«ÒÆ(µ¥Î»£ºmm)
+#ï¿½ï¿½ï¿½ï¿½XÆ«ï¿½ï¿½(ï¿½ï¿½Î»ï¿½ï¿½mm)
 >HOME_X_OFFSET	0.1
 
-#»ØÁãYÆ«ÒÆ(µ¥Î»£ºmm)
+#ï¿½ï¿½ï¿½ï¿½YÆ«ï¿½ï¿½(ï¿½ï¿½Î»ï¿½ï¿½mm)
 >HOME_Y_OFFSET	0
 
-#»ØÁãZÆ«ÒÆ(µ¥Î»£ºmm)
+#ï¿½ï¿½ï¿½ï¿½ZÆ«ï¿½ï¿½(ï¿½ï¿½Î»ï¿½ï¿½mm)
 >HOME_Z_OFFSET	0
 
-#ÈÈÃôÑ¡Ôñ(0:TH1,1:TH2)
+#ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½(0:TH1,1:TH2)
 >THERMAL_NUM	0
-       
+
 #end.
