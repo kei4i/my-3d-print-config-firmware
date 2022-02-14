@@ -146,21 +146,21 @@
 >DEFAULT_E0_STEPS_PER_UNIT	400	#E��Ĭ������ (steps/mm)
 >DEFAULT_E1_STEPS_PER_UNIT	90	#E��Ĭ������ (steps/mm)
 
->DEFAULT_X_MAX_FEEDRATE		300	#X��Ĭ���ٶ� (mm/s)
->DEFAULT_Y_MAX_FEEDRATE		300	#Y��Ĭ���ٶ� (mm/s)
+>DEFAULT_X_MAX_FEEDRATE		200	#X��Ĭ���ٶ� (mm/s)
+>DEFAULT_Y_MAX_FEEDRATE		200	#Y��Ĭ���ٶ� (mm/s)
 >DEFAULT_Z_MAX_FEEDRATE		5	#Z��Ĭ���ٶ� (mm/s)
 >DEFAULT_E0_MAX_FEEDRATE	10	#E��Ĭ���ٶ� (mm/s)
 >DEFAULT_E1_MAX_FEEDRATE	70	#E��Ĭ���ٶ� (mm/s)
 
 >DEFAULT_X_MAX_ACCELERATION	1000	#X��Ĭ�������ٶ� (change/s) change = mm/s
 >DEFAULT_Y_MAX_ACCELERATION	1000	#Y��Ĭ�������ٶ� (change/s) change = mm/s
->DEFAULT_Z_MAX_ACCELERATION	200	#Z��Ĭ�������ٶ� (change/s) change = mm/s
->DEFAULT_E0_MAX_ACCELERATION	80000	#E��Ĭ�������ٶ� (change/s) change = mm/s
->DEFAULT_E1_MAX_ACCELERATION	10000	#E��Ĭ�������ٶ� (change/s) change = mm/s
+>DEFAULT_Z_MAX_ACCELERATION	50	#Z��Ĭ�������ٶ� (change/s) change = mm/s
+>DEFAULT_E0_MAX_ACCELERATION	2000	#E��Ĭ�������ٶ� (change/s) change = mm/s
+>DEFAULT_E1_MAX_ACCELERATION	1000	#E��Ĭ�������ٶ� (change/s) change = mm/s
 
 >DEFAULT_ACCELERATION		100	#X,Y,Z,E ��ӡʱ��Ĭ�ϼ��ٶ�
->DEFAULT_RETRACT_ACCELERATION	30000 	#X,Y,Z,E �س�Ĭ�ϼ��ٶ�
->DEFAULT_TRAVEL_ACCELERATION	3000	#X,Y,Z �Ǵ�ӡʱ��Ĭ�ϼ��ٶ�
+>DEFAULT_RETRACT_ACCELERATION	2000 	#X,Y,Z,E �س�Ĭ�ϼ��ٶ�
+>DEFAULT_TRAVEL_ACCELERATION	1500	#X,Y,Z �Ǵ�ӡʱ��Ĭ�ϼ��ٶ�
 >DEFAULT_MINIMUMFEEDRATE	0.0	#Ĭ����С�ٶ�
 >DEFAULT_MINSEGMENTTIME		20000	#�����ʱ��һ���ƶ��������Сʱ��(��λms).
 >DEFAULT_MINTRAVELFEEDRATE	0.0	#
@@ -180,20 +180,20 @@
 >TEMP_SENSOR_0		1		#1: 100k������-3 : MAX31855�ȵ�ż
 
 >EXTRUDE_MINTEMP 	160		#��ӡʱ,����������¶�(�𱣻�����)
->HEATER_0_MINTEMP	-5		#����0��С�¶�ֵ
->HEATER_0_MAXTEMP 	350		#����0����¶�ֵ
->HEATER_1_MINTEMP	-5		#����1��С�¶�ֵ
->HEATER_1_MAXTEMP 	400		#����1����¶�ֵ
+>HEATER_0_MINTEMP	0		#����0��С�¶�ֵ
+>HEATER_0_MAXTEMP 	300		#����0����¶�ֵ
+>HEATER_1_MINTEMP	0		#����1��С�¶�ֵ
+>HEATER_1_MAXTEMP 	300		#����1����¶�ֵ
 >BED_MAXTEMP 		150		#�ȴ�����¶�ֵ
 
 #======================== ������������ =======================
->THERMAL_PROTECTION_PERIOD 		150     #��λ:��
->THERMAL_PROTECTION_HYSTERESIS 		6     	#��λ:��
->WATCH_TEMP_PERIOD 			150	#��λ:��
->WATCH_TEMP_INCREASE 			2	#��λ:��
->THERMAL_PROTECTION_BED_PERIOD 		200    	#��λ:��
+>THERMAL_PROTECTION_PERIOD 		30     #��λ:��
+>THERMAL_PROTECTION_HYSTERESIS 		10     	#��λ:��
+>WATCH_TEMP_PERIOD 			30	#��λ:��
+>WATCH_TEMP_INCREASE 			5	#��λ:��
+>THERMAL_PROTECTION_BED_PERIOD 		30    	#��λ:��
 >THERMAL_PROTECTION_BED_HYSTERESIS 	4 	#��λ:��
->WATCH_BED_TEMP_PERIOD 		200     #��λ:��
+>WATCH_BED_TEMP_PERIOD 		60     #��λ:��
 >WATCH_BED_TEMP_INCREASE 		2       #��λ:��
 
 # ����ͷ�¶ȵ��ز�������.
